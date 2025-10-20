@@ -1,0 +1,22 @@
+system_name: "J1442+4055"
+filter: "F160W"
+
+# parameters for masking
+r1: 3.
+dx_outer: -0.3
+dy_outer: 0.6
+
+dx_center: 0.
+dy_center: 0.1
+
+
+x1: 38
+y1: 46
+
+x2: 55
+y2: 42
+
+x3: 64
+y3: 39
+
+use_center_mask: False

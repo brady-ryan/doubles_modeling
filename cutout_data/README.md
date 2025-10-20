@@ -1,0 +1,1 @@
+Directory containing STARRED PSF cutouts, masks, star cutouts, single band models, etc.

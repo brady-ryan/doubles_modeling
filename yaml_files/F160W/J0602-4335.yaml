@@ -1,0 +1,22 @@
+system_name: "J0602-4335"
+filter: "F160W"
+
+# parameters for masking
+r1: 4.2
+dx_outer: -0.1
+dy_outer: 0.
+
+dx_center: 0.2
+dy_center: 0.1
+
+
+x1: 42
+y1: 37
+
+x2: 52
+y2: 48
+
+x3: 57
+y3: 55
+
+use_center_mask: False

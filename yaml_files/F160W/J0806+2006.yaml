@@ -1,0 +1,22 @@
+system_name: "J0806+2006"
+filter: "F160W"
+
+# parameters for masking
+r1: 4.2
+dx_outer: -0.9
+dy_outer: 0.35
+
+dx_center: 0.2
+dy_center: 0.1
+
+
+x1: 45
+y1: 54
+
+x2: 56
+y2: 47
+
+x3: 62
+y3: 45
+
+use_center_mask: False

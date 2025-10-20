@@ -1,0 +1,49 @@
+# global paramters
+system_name: "J1442+4055"
+filter: "F160W"
+use_psf_variance_map: True
+
+# F160W PARAMETERS
+# masking
+r1: 3.
+dx_outer: -0.3
+dy_outer: 1.0
+
+dx_center: 0.
+dy_center: 0.1
+
+
+x1: 38
+y1: 46
+
+x2: 53
+y2: 42
+
+x3: 64
+y3: 39
+
+use_center_mask: False
+
+# F814W Parameters:
+# masking
+r1_f814w: 2.2
+dx_outer_f814w: -0.2
+dy_outer_f814w: 0.6
+
+# we only need the lens center location for masking
+lens_center_x_f814w: 103
+lens_center_y_f814w: 80
+
+use_center_mask: False
+
+#F475X PARAMETERS:
+# masking
+r1_f475x: 2.2
+dx_outer_f475x: -0.2
+dy_outer_f475x: 0.6
+
+# we only need the lens center location for masking
+lens_center_x_f475x: 104
+lens_center_y_f475x: 82
+
+use_center_mask: False

@@ -1,0 +1,15 @@
+# Parameters
+system_name: "J1515+1511"
+filter: "F160W"
+r1: 3.7
+dx_outer: -0.3
+dy_outer: 0.6
+dx_center: 0.
+dy_center: 0.1
+x1: 41
+y1: 59
+x2: 56
+y2: 45
+x3: 63
+y3: 45
+use_center_mask: False

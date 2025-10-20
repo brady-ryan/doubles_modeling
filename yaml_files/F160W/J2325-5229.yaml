@@ -1,0 +1,22 @@
+system_name: "J2325-5229"
+filter: "F160W"
+
+# parameters for masking
+r1: 3.1
+dx_outer: 0.1
+dy_outer: 0.35
+
+dx_center: 0.1
+dy_center: 0.1
+
+
+x1: 40
+y1: 65
+
+x2: 46
+y2: 44
+
+x3: 58
+y3: 34
+
+use_center_mask: False

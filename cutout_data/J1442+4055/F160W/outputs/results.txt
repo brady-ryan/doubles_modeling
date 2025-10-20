@@ -1,0 +1,6 @@
+=== Final Results === 
+Norm : 0.43397605895996094 
+Overall Reduced Chi2 : 1.1342949453606168 
+Loss : 44728.57794440647 
+Log Likelihood : -28927.35684405913 
+Log Regul: -15801.221100347335 
