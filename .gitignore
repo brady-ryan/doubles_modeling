@@ -167,3 +167,6 @@ cython_debug/
 retrieve_data.sh
 pdf_convert.sh
 tdcosmo.png
+
+# pkl files (they are too large)
+*.pkl
