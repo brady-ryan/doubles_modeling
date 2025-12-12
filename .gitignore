@@ -167,3 +167,5 @@ cython_debug/
 retrieve_data.sh
 pdf_convert.sh
 tdcosmo.png
+
+analysis/rgb_images
