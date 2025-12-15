@@ -18,7 +18,7 @@ export NUMEXPR_NUM_THREADS=20
 
 # define the input and output notebook paths
 input_notebook="cosmology.ipynb"
-output_notebook="cutout_data/${name}/${filter}/cosmo_${name}.ipynb"
+output_notebook="joint_modeling/${name}/cosmo_${name}.ipynb"
 
 # execute the notebook via papermill
 papermill "$input_notebook" "$output_notebook" -f "yaml_files/cosmology/${name}.yaml"
