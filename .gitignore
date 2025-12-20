@@ -169,3 +169,7 @@ pdf_convert.sh
 tdcosmo.png
 
 analysis/rgb_images
+
+# gitignore and gitattributes
+.gitignore
+.gitattributes
