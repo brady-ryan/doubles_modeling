@@ -1,9 +1,14 @@
 # global paramters
-use_psf_variance_map: True
 system_name: "J0407-5006"
 filter: "F160W"
+include_perturber: False
+use_double_sersic_uvis: False
+use_shapelets: False
+increase_shear: False
 
 # F160W PARAMETERS
+use_psf_variance_map_f160w: True
+
 # masking
 r1: 3.
 dx_outer: 0.1
@@ -25,6 +30,8 @@ y3: 55
 use_center_mask: False
 
 # F814W Parameters:
+use_psf_variance_map_f814w: True
+
 # masking
 r1_f814w: 2.
 dx_outer_f814w: 0.3
@@ -37,6 +44,8 @@ lens_center_y_f814w: 81
 use_center_mask: False
 
 #F475X PARAMETERS:
+use_psf_variance_map_f475x: False
+
 # masking
 r1_f475x: 2.
 dx_outer_f475x: 0.3

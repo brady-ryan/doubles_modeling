@@ -1,9 +1,14 @@
 # global paramters
 system_name: "J2325-5229"
 filter: "F160W"
-use_psf_variance_map: True
+include_perturber: False
+use_double_sersic_uvis: False
+use_shapelets: True
+increase_shear: False
 
 # F160W PARAMETERS
+use_psf_variance_map_f160w: True
+
 # masking
 r1: 3.1
 dx_outer: 0.1
@@ -25,6 +30,8 @@ y3: 34
 use_center_mask: False
 
 # F814W Parameters:
+use_psf_variance_map_f814w: False
+
 # masking
 r1_f814w: 2.2
 dx_outer_f814w: 0.
@@ -37,6 +44,8 @@ lens_center_y_f814w: 87
 use_center_mask: False
 
 #F475X PARAMETERS:
+use_psf_variance_map_f475x: False
+
 # masking
 r1_f475x: 2.2
 dx_outer_f475x: 0.
