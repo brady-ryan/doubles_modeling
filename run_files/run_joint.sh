@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 #SBATCH --job-name=joint
-#SBATCH -p hbm-extended-96core
+#SBATCH -p extended-40core
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=20
@@ -17,15 +17,7 @@ export MKL_NUM_THREADS=20
 export NUMEXPR_NUM_THREADS=20
 
 # define the input and output notebook paths
-if [ ${name} == 'J1001+5027' ]; then
-    input_notebook="joint_model_j1001.ipynb"
-elif [ ${name} == 'J0602-4335' ]; then
-    input_notebook="joint_model_j0602.ipynb"
-elif [ ${name} == 'J1515+1511' ]; then
-    input_notebook="joint_model_j1515.ipynb"
-else
-    input_notebook="joint_model.ipynb"
-fi
+input_notebook="joint_model.ipynb"
 
 if [ ${add_source} == "False" ]; then
     output_notebook="no_source/${name}/${name}_joint_model.ipynb"
