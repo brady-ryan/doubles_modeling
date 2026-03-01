@@ -4,7 +4,14 @@
 
 This repository stores the HST cutout data, code, and notebooks for the TDCOSMO doubly imaged quasar analysis. This repository is organized as follows:
 
-1) ```run_files:``` Contains the .sh slurm submission scripts used to run the Jupyter notebooks. The script ```run_joint.sh``` runs the three band joint fit via ```joint_model.ipynb```. ```run_photometry.sh``` and ```multi_band_photometry.ipynb``` handle photometric calculations and posterior sampling. For cosmological analysis, ```run_cosmo.sh``` submits a job to run ```cosmology.ipynb```, which calculates the Fermat potential and time delay differences with the posteriors generated from the modeling routine. ```run_conjugate.sh``` and ```run_conj_cosmo.sh``` submit jobs for the conjugate point analysis. The jobs make use of ```papermill``` to execute the Jupyter notebooks.
+1) ```run_files:``` Contains the .sh slurm submission scripts used to run the Jupyter notebooks. 
+    The script ```run_joint.sh``` runs the three band joint fit via ```joint_model.ipynb```. 
+    ```run_photometry.sh``` and ```multi_band_photometry.ipynb``` handle photometric calculations and posterior sampling. 
+    For cosmological analysis, ```run_cosmo.sh``` submits a job to run ```cosmology.ipynb```, which calculates the Fermat potential and time delay differences with the posteriors generated from the modeling routine. 
+    ```run_conjugate.sh``` and ```run_conj_cosmo.sh``` submit jobs for the conjugate point analysis. 
+    ```continue_mcmc.ipynb``` allows one to continue the MCMC fitting using the final walker positions as the new starting point. ```run_mcmc.sh``` submits a job to continue the MCMC, with the parameter n_additional_steps controlling the number of additional steps passed into the Jupyter notebook.
+    
+    The jobs make use of ```papermill``` to execute the Jupyter notebooks.
 2) ```yaml_files:``` Contains the input papermill .yaml files utilized in the joint modeling and cosmology analysis.
 3) ```jupyter_notebooks```. This directory stores the three-band fitting notebook, conjugate point modeling notebook, photometry notebook, and Fermat potential derivation notebook.
 
