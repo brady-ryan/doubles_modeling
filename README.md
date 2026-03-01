@@ -12,12 +12,12 @@ This repository stores the HST cutout data, code, and notebooks for the TDCOSMO 
     For cosmological analysis, ```run_cosmo.sh``` submits a job to run ```cosmology.ipynb```, which calculates the Fermat potential and time delay differences with the posteriors generated from the modeling routine.
 
     ```run_conjugate.sh``` and ```run_conj_cosmo.sh``` submit jobs for the conjugate point analysis. 
-    
+
     ```continue_mcmc.ipynb``` allows one to continue the MCMC fitting using the final walker positions as the new starting point. ```run_mcmc.sh``` submits a job to continue the MCMC, with the parameter n_additional_steps controlling the number of additional steps passed into the Jupyter notebook.
     
     The jobs make use of ```papermill``` to execute the Jupyter notebooks.
 2) ```yaml_files:``` Contains the input papermill .yaml files utilized in the joint modeling and cosmology analysis.
-3) ```jupyter_notebooks```. This directory stores the three-band fitting notebook, conjugate point modeling notebook, photometry notebook, and Fermat potential derivation notebook.
+3) ```jupyter_notebooks```. This directory stores all modeling notebooks.
 
 To access the data products of Brady et al. 2025 (link TBD), please visit the corresponding Zenodo repository (link TBD). Upon downloading and opening the zipped directory, move ```brady_et_al_2025``` into this directory, and move each individual folder out of ```brady_et_al_2025``` and into this directory. The data products include:
 1) ```joint_modeling:``` Stores the outputs for the FULL IMAGE JOINT MODELING, including the fitting notebook, photometry notebook, and cosmology notebook.
