@@ -35,6 +35,7 @@ Useful analysis notebooks can be found in ```analysis```. These include:
     6) Mass-Light Parameter plot by band
     7) Astrometry comparison with Gaia DR2
     8) Fermat Potential Precision w/ Lensed Arc Magnitude
+    9) Visualize MCMC chains for convergence
 
 <it>NOTE: Please ensure that Git large file storage (lfs) is installed in your repo to retrieve the joint modeling pickle files!</it>
 
