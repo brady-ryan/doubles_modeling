@@ -19,7 +19,7 @@ This repository stores the HST cutout data, code, and notebooks for the TDCOSMO 
 2) ```yaml_files:``` Contains the input papermill .yaml files utilized in the joint modeling and cosmology analysis.
 3) ```jupyter_notebooks```. This directory stores all modeling notebooks.
 
-To access the data products of Brady et al. 2025 (link TBD), please visit the corresponding Zenodo repository (link TBD). Upon downloading and opening the zipped directory, move ```brady_et_al_2025``` into this directory, and move each individual folder out of ```brady_et_al_2025``` and into this directory. The data products include:
+To access the data products of Brady et al. 2025 (link TBD), please visit the corresponding Zenodo repository (link TBD). Upon downloading and opening the zipped directory, move ```brady_et_al_2026``` into this directory, and move each individual folder out of ```brady_et_al_2026``` and into this directory. The data products include:
 1) ```joint_modeling:``` Stores the outputs for the FULL IMAGE JOINT MODELING, including the fitting notebook, photometry notebook, and cosmology notebook.
 2) ```conjugate_point:``` This directory stores the outputs for the CONJUGATE POINT MODELING.
 3) ```no_source:``` Stores the model results for full image modeling without the inclusion of a source profile.
