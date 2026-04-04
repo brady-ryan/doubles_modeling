@@ -2,7 +2,7 @@
 
 # Gravitational Lens Modeling of HST Observed Doubly Imaged Quasars
 
-This repository stores the HST cutout data, code, and notebooks for the TDCOSMO doubly imaged quasar analysis. This repository is organized as follows:
+This repository stores the modeling and analysis notebooks for the paper, TDCOSMO XXIX: Uniform Lens Modeling of Eight Doubly Imaged Quasars (link TBD). This repository is organized as follows:
 
 1) ```run_files:``` Contains the .sh slurm submission scripts used to run the Jupyter notebooks. 
     The script ```run_joint.sh``` runs the three band joint fit via ```joint_model.ipynb```. 
@@ -19,7 +19,7 @@ This repository stores the HST cutout data, code, and notebooks for the TDCOSMO 
 2) ```yaml_files:``` Contains the input papermill .yaml files utilized in the joint modeling and cosmology analysis.
 3) ```jupyter_notebooks```. This directory stores all modeling notebooks.
 
-To access the data products of Brady et al. 2025 (link TBD), please visit the corresponding Zenodo repository (link TBD). Upon downloading and opening the zipped directory, move ```brady_et_al_2026``` into this directory, and move each individual folder out of ```brady_et_al_2026``` and into this directory. The data products include:
+To access the data products of Brady et al. 2026 (link TBD), please visit the corresponding Zenodo repository (link TBD). Upon downloading and opening the zipped directory, move ```brady_et_al_2026``` into this directory, and move each individual folder out of ```brady_et_al_2026``` and into this directory. The data products include:
 1) ```joint_modeling:``` Stores the outputs for the FULL IMAGE JOINT MODELING, including the fitting notebook, photometry notebook, and cosmology notebook.
 2) ```conjugate_point:``` This directory stores the outputs for the CONJUGATE POINT MODELING.
 3) ```no_source:``` Stores the model results for full image modeling without the inclusion of a source profile.
@@ -36,7 +36,5 @@ Useful analysis notebooks can be found in ```analysis```. These include:
     7) Astrometry comparison with Gaia DR2
     8) Fermat Potential Precision w/ Lensed Arc Magnitude
     9) Visualize MCMC chains for convergence
-
-<it>NOTE: Please ensure that Git large file storage (lfs) is installed in your repo to retrieve the joint modeling pickle files!</it>
 
 Please contact Ryan Brady [ryan.m.brady@stonybrook.edu] for any questions, comments, or suggestions!
